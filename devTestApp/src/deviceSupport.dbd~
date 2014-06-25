@@ -1,0 +1,3 @@
+device(ao,INST_IO,integer_converter,"portController")
+
+device(ao,INST_IO,saveCoordinate,"portReader")

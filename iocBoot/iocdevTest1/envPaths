@@ -1,0 +1,4 @@
+epicsEnvSet("ARCH","linux-arm")
+epicsEnvSet("IOC","iocdevTest1")
+epicsEnvSet("TOP","/home/pi/epicsApps/devTest")
+epicsEnvSet("EPICS_BASE","/usr/local/epics/base")

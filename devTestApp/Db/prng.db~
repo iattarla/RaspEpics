@@ -1,0 +1,15 @@
+record(calcout, SETport) {
+  field(DTYP, "portController")
+  field(VAL, "0")
+  field(OUT, "@setPort")
+}
+record(calcout, GETport) {
+  field(DTYP, "portReader")
+  field(VAL, "0")
+  field(OUT, "@getPort")
+}
+
+record(ai, port_no) {
+  field(VAL, "0")
+  field(FLNK, "SETport")
+}
